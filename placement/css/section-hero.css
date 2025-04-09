@@ -238,20 +238,20 @@
         font-size: 42px;
     }
 
-    .hero__product:first-of-type .hero__product-title {
+    .hero__product-inner {
+        bottom: 165px;
+    }
+
+    .hero__product:first-of-type .hero__product-inner {
         right: 98px;
     }
 
-    .hero__product:last-of-type .hero__product-title {
+    .hero__product:last-of-type .hero__product-inner {
         left: 98px;
     }
 
-    .hero__product:first-of-type .global-btn {
-        right: 132px;
-    }
-
-    .hero__product:last-of-type .global-btn {
-        left: 142px;
+    .hero__product:hover .hero__product-inner {
+        bottom: 195px;
     }
 
 }
