@@ -1,0 +1,34 @@
+.section-video {
+    padding-top: 104px;
+    padding-bottom: 42px;
+}
+
+.section-video__inner {
+    display: grid;
+    grid-row-gap: 16px;
+}
+
+.section-video__inner .global-section-title {
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+@media (min-width: 1024px) {
+    .section-video {
+        padding-bottom: 120px;
+    }
+
+    .section-video__inner {
+        grid-template-columns: 1.5fr 1fr;
+        grid-column-gap: 32px;
+        align-items: end;
+    }
+}
+
+@media (min-width: 1280px) {
+    .section-video__inner {
+        grid-template-columns: 732px 1fr;
+        grid-column-gap: 32px;
+        align-items: end;
+    }
+}

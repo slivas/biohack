@@ -1,0 +1,33 @@
+.section-slogan {
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+
+.section-slogan cite {
+    display: block;
+    margin-bottom: 62px;
+    padding: 12px 16px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255 255 255);
+    background-color: rgb(73 191 157);
+}
+
+@media (min-width: 1024px) {
+    .section-slogan {
+        padding-top: 92px;
+        padding-bottom: 92px;
+    }
+    .section-slogan cite {
+        margin-bottom: 62px;
+        font-size: 38px;
+    }
+
+    .section-slogan .global-btn-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+}
