@@ -37,6 +37,7 @@
     font-weight: 300;
     line-height: 1.4;
     color: rgb(255 255 255);
+    z-index: 1;
 }
 
 .section-banners .banner-item__title {
@@ -67,5 +68,13 @@
     .banners-wrapper {
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 16px;
+    }
+
+    .banner-item__img img {
+        transition-duration: .25s;
+    }
+
+    .banner-item:hover .banner-item__img img {
+        transform: scale(1.1);
     }
 }

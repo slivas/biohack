@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const cycleDuration = 86400 * 1000;
-    const initialCountdownSeconds = 23 * 3600 + 59 * 60 + 59;
+    const initialCountdownSeconds = 47 * 3600 + 59 * 60 + 59;
 
     function formatTime(unit) {
         return unit < 10 ? "0" + unit : unit;
