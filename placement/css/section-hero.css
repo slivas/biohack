@@ -163,6 +163,13 @@
         border-radius: 4px;
     }
 
+    .hero__product-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 24px;
+    }
+
     .hero__product:first-of-type .hero__product-inner {
         right: 130px;
     }
@@ -171,9 +178,12 @@
         left: 130px;
     }
 
-    .hero__product-inner,
-    .hero__product-img {
+    .hero__product-inner {
         transition-duration: .25s;
+    }
+
+    .hero__product-img {
+        transition-duration: .35s;
     }
 
     .hero__product:hover .hero__product-inner {

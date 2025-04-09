@@ -27,7 +27,6 @@
 
 .swiper-buttons-wrapper {
     display: flex;
-    height: 24px;
     margin-top: 8px;
     margin-bottom: 40px;
     justify-content: center;
@@ -35,9 +34,16 @@
 }
 
 .swiper-btn {
+    width: 24px;
+    height: 24px;
     box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
     border-radius: 100%;
     cursor: pointer;
+}
+
+.swiper-btn svg {
+    width: 100%;
+    height: auto;
 }
 
 .slider-thumbnail .swiper-slide {
@@ -90,7 +96,7 @@
     position: relative;
     padding-left: 34px;
     color: rgb(0 0 0);
-    font-size: 14px;
+    font-size: 13px;
     background-color: transparent;
     border-width: 0;
     text-align: left;
@@ -138,6 +144,12 @@
     list-style-type: none;
 }
 
+@media (min-width: 768px) {
+    .page-placement__text .tab-button {
+        font-size: 14px;
+    }
+}
+
 @media (min-width: 1024px) {
     .section-page-placement {
         padding-top: 68px;
@@ -155,6 +167,11 @@
 
     .slider .swiper-slide {
         height: 500px;
+    }
+
+    .swiper-btn {
+        width: 48px;
+        height: 48px;
     }
 
     .page-placement__text {
@@ -205,7 +222,7 @@
     .swiper-buttons-wrapper {
         position: relative;
         margin-top: 0;
-        margin-bottom: 70px;
+        margin-bottom: 44px;
         z-index: 1;
     }
 
